@@ -1,0 +1,30 @@
+/* Burger Menu */
+#burger-btn {
+    position: relative;
+    border: none;
+    height: 50px;
+    background-color: transparent;
+}
+#burger-btn:focus {
+    outline: none;
+}
+#burger-wrapper {
+    position: relative;
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+}
+#burger-top, #burger-bot {
+    position: absolute;
+    right: 0;
+    border-top: solid 3px black;
+    transition: 0.3s;
+}
+#burger-top {
+    top: 0;
+    width: 40px;
+}
+#burger-bot {
+    top: 15px;
+    width: 23px;
+}
